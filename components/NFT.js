@@ -6,7 +6,7 @@ export const NFT = (nft) => {
   return (
     <>
       <a
-        className="text-left w-24
+        className="w-24
         cursor-pointer rounded-md shadow-xs
         mr-3 mb-3 sm:mr-4 hover:underline text-center"
         href={`/token/${nft.id}`}
